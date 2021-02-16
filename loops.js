@@ -8,8 +8,11 @@ let counter;
 
 // console.log(`after the counter is ${counter}`);
 
+// every second number
 for (counter=1; counter < 19; counter += 2) {
     console.log(counter);
 }
+
+
 
 console.log(`after the counter is ${counter}`);
