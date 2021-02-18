@@ -20,19 +20,3 @@ function capitalize(str) {
   str = str.substring(0, 1).toUpperCase() + str.substring(1).toLowerCase();
   return `${str}`;
 }
-
-// "use strict";
-
-// function capitalize(str) {
-// result = str.substring(0,1).toUpperCase() + str.substring(1,9).toLowerCase();
-// return result; 
-// }
-
-// const fullname = ("Annemette MYgid hAarh");
-
-// const firstSpace = fullname.indexOf(" ");
-// const lastSpace = fullname.lastIndexOf(" ");
-
-// const firstName = capitalize(fullname.substring (0,firstSpace));
-// const middleName = capitalize(fullname.substring (firstSpace, lastSpace));
-// const lastName = capitalize(fullname.substring(lastSpace));
